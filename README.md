@@ -21,7 +21,8 @@ This program conducts a survey to collect the favorite movie genres of participa
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/movie-genre-survey-sorter.git```
+   git clone https://github.com/your-username/movie-genre-survey-sorter.git
+   ```
 
 2. Navigate to the project directory:
   ```bash
@@ -43,7 +44,7 @@ python genre_survey.py
 
 ## Example Input/Output
 
-###Input
+### Input
   ```plain
 4
 hossein Horror Romance Comedy
@@ -51,7 +52,7 @@ mohsen Horror Action Comedy
 mina Adventure Action History
 sajjad Romance History Action
 ```
-###Output
+### Output
   ```plain
 Action : 3
 Comedy : 2
@@ -61,7 +62,7 @@ Romance : 2
 Adventure : 1
 ```
 
-##Code Structure
+## Code Structure
 
 * genre_survey.py: Main script that handles input, processing, and output.
 
@@ -72,7 +73,7 @@ Adventure : 1
 * Sorts genres using Python's sorted() function with a custom key for descending count and alphabetical ordering.
 
 
-##Notes
+## Notes
 
 * The program ignores invalid genres (not in the predefined list).
 
