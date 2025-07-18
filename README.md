@@ -39,12 +39,7 @@ This program conducts a survey to collect the favorite movie genres of participa
 2. Enter the number of participants when prompted.
 
 
-3. For each participant, enter their name followed by three genres, separated by spaces (e.g.):
-```python
-from colorama import init, Fore, Style
-init()
-print(f"{Fore.ORANGE}hossein{Style.RESET_ALL} Horror Romance Comedy")
-```
+3. For each participant, enter their name followed by three genres, separated by spaces (e.g., hossein Horror Romance Comedy).
 
 ## Example Input/Output
 
