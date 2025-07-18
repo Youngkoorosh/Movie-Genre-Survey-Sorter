@@ -26,15 +26,15 @@ This program conducts a survey to collect the favorite movie genres of participa
 
 2. Navigate to the project directory:
   ```bash
-cd movie-genre-survey-sorter
-```
+  cd movie-genre-survey-sorter
+  ```
 
 ## Usage
 
 1. Run the program:
   ```bash
-python genre_survey.py
-```
+  python genre_survey.py
+  ```
 
 2. Enter the number of participants when prompted.
 
@@ -46,21 +46,21 @@ python genre_survey.py
 
 ### Input
   ```plain
-4
-hossein Horror Romance Comedy
-mohsen Horror Action Comedy
-mina Adventure Action History
-sajjad Romance History Action
-```
+   4
+   hossein Horror Romance Comedy
+   mohsen Horror Action Comedy
+   mina Adventure Action History
+   sajjad Romance History Action
+   ```
 ### Output
   ```plain
-Action : 3
-Comedy : 2
-History : 2
-Horror : 2
-Romance : 2
-Adventure : 1
-```
+   Action : 3
+   Comedy : 2
+   History : 2
+   Horror : 2
+   Romance : 2
+   Adventure : 1
+   ```
 
 ## Code Structure
 
