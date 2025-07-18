@@ -43,7 +43,7 @@ python genre_survey.py
 
 ## Example Input/Output
 
-Input
+###Input
   ```plain
 4
 hossein Horror Romance Comedy
@@ -51,7 +51,7 @@ mohsen Horror Action Comedy
 mina Adventure Action History
 sajjad Romance History Action
 ```
-Output
+###Output
   ```plain
 Action : 3
 Comedy : 2
@@ -61,41 +61,22 @@ Romance : 2
 Adventure : 1
 ```
 
-Code Structure
+##Code Structure
+
+* genre_survey.py: Main script that handles input, processing, and output.
+
+* Uses a dictionary to store participant names and their genre preferences.
+
+* Uses another dictionary to count genre preferences.
+
+* Sorts genres using Python's sorted() function with a custom key for descending count and alphabetical ordering.
 
 
+##Notes
 
+* The program ignores invalid genres (not in the predefined list).
 
+* Input validation ensures at least one name and three genres are provided per participant.
 
-genre_survey.py: Main script that handles input, processing, and output.
-
-
-
-
-
-Uses a dictionary to store participant names and their genre preferences.
-
-
-
-Uses another dictionary to count genre preferences.
-
-
-
-Sorts genres using Python's sorted() function with a custom key for descending count and alphabetical ordering.
-
-Notes
-
-
-
-
-
-The program ignores invalid genres (not in the predefined list).
-
-
-
-Input validation ensures at least one name and three genres are provided per participant.
-
-
-
-The output format strictly follows the requirement: genre : count.
+* The output format strictly follows the requirement: genre : count.
 
