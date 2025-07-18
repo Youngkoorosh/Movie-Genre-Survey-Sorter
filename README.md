@@ -40,7 +40,7 @@ This program conducts a survey to collect the favorite movie genres of participa
 
 
 3. For each participant, enter their name followed by three genres, separated by spaces (e.g.,
-  <span style="color: orange;">hossein Horror Romance Comedy</span>
+  <span style="orange-text">hossein Horror Romance Comedy</span>
   ).
 
 
