@@ -80,3 +80,5 @@ This program conducts a survey to collect the favorite movie genres of participa
 
 * The output format strictly follows the requirement: genre : count.
 
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/koorosh-noroozpur-964705375)
